@@ -3,13 +3,5 @@
 version = 3
 
 [[package]]
-name = "hello-world"
-version = "0.1.0"
-
-[[package]]
 name = "mars-cli"
-version = "0.1.0"
-
-[[package]]
-name = "stack-and-heap"
 version = "0.1.0"
