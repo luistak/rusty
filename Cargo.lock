@@ -9,13 +9,13 @@ version = "0.1.0"
 [[package]]
 name = "hello_world"
 version = "0.1.0"
+dependencies = [
+ "add_one",
+]
 
 [[package]]
 name = "mars_cli"
 version = "0.1.0"
-dependencies = [
- "add_one",
-]
 
 [[package]]
 name = "stack_and_heap"
