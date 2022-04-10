@@ -1,8 +1,8 @@
 [workspace]
 members = [
   "add_one",
-  "mars-cli",
-  "hello-world",
-  "stack-and-heap"
+  "mars_cli",
+  "hello_world",
+  "stack_and_heap"
 ]
 

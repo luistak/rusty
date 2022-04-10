@@ -7,16 +7,16 @@ name = "add_one"
 version = "0.1.0"
 
 [[package]]
-name = "hello-world"
+name = "hello_world"
 version = "0.1.0"
 
 [[package]]
-name = "mars-cli"
+name = "mars_cli"
 version = "0.1.0"
 dependencies = [
  "add_one",
 ]
 
 [[package]]
-name = "stack-and-heap"
+name = "stack_and_heap"
 version = "0.1.0"
