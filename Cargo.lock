@@ -18,5 +18,9 @@ name = "mars_cli"
 version = "0.1.0"
 
 [[package]]
+name = "server"
+version = "0.1.0"
+
+[[package]]
 name = "stack_and_heap"
 version = "0.1.0"

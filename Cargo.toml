@@ -3,6 +3,7 @@ members = [
   "add_one",
   "mars_cli",
   "hello_world",
+  "server",
   "stack_and_heap"
 ]
 

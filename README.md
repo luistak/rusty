@@ -7,24 +7,27 @@ A Rust learning playground
 
 1. Setup rust following the [installation guide](https://doc.rust-lang.org/book/ch01-01-installation.html)
 
-2. Install [cargo-expand](https://crates.io/crates/cargo-expand) running
+2. Install [cargo-watch](https://crates.io/crates/cargo-watch) by running:
 ```bash
-cargo install cargo-expand
+cargo install cargo-watch
 ```
 
-3. Install rust nightly version
+3. Install rust nightly version:
 ```bash
 rustup install nightly   
 ```
 
 ## Running
 
-1. Build every package in this workspace
+1. Build every package in this workspace:
 ```bash
 cargo build
 ```
 
-2. Running a specific bin package `cargo run --bin PACKAGE_NAME` example:
+2. Running a specific package `cargo run --p PACKAGE_NAME`:
 ```bash
-cargo run -p hello-world
+cargo run -p server
+
+# Or
+cargo watch -x 'run -p server'
 ```
