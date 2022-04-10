@@ -26,5 +26,5 @@ cargo build
 
 2. Running a specific bin package `cargo run --bin PACKAGE_NAME` example:
 ```bash
-cargo run --bin hello-world
+cargo run -p hello-world
 ```

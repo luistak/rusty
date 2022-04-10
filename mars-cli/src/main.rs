@@ -1,3 +1,10 @@
+use add_one;
+
 fn main() {
-    println!("Mars CLI");
+    let num = 10;
+    println!(
+        "Mars CLI! {} plus one is {}!",
+        num,
+        add_one::add_one(num)
+    );
 }

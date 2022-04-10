@@ -3,12 +3,19 @@
 version = 3
 
 [[package]]
+name = "add_one"
+version = "0.1.0"
+
+[[package]]
 name = "hello-world"
 version = "0.1.0"
 
 [[package]]
 name = "mars-cli"
 version = "0.1.0"
+dependencies = [
+ "add_one",
+]
 
 [[package]]
 name = "stack-and-heap"
